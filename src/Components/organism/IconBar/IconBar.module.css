@@ -1,0 +1,28 @@
+.mainDiv {
+  background-color: #edf2fa;
+  min-height: 2rem;
+  border-radius: 15px;
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+  gap: 30px;
+}
+.actionIcon {
+  font-size: 1.3rem;
+  padding: 5px;
+  border-radius: 5px;
+}
+.actionIcon:hover {
+  background-color: #d1dbea;
+}
+.actionIcon:active {
+  background-color: #b4bfd1;
+}
+#inputColor {
+  position: relative;
+  top: 0.9rem;
+  right: 1.8rem;
+  width: 0.5rem;
+  max-height: 0.5rem;
+  z-index: -1;
+}

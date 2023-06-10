@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  height: 5vh;
+  width: 97%;
+  background-color: #edf2fa;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.9rem;
+  border-radius: 1rem;
+  position: fixed;
+  top: 69px;
+  z-index: -2;
+  right: 10px;
+}
+.container button {
+  background-color: #edf2fa;
+  border: none;
+  padding: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.innerContainer {
+  display: flex;
+  width: 97%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  gap: 1.5rem;
+}
+.leftActionBar {
+  display: flex;
+  gap: 1rem;
+}
+.leftActionBar button {
+  background-color: none;
+  border: none;
+  padding: 5px;
+  border-radius: 6px;
+}
+.leftActionBar button:hover {
+  background-color: #d2dbee;
+}
+.leftActionBar button:active {
+  background-color: #98a2b7;
+}
+.Select {
+  height: 22px;
+  width: 7rem;
+}
+
+.zoom:hover {
+  background-color: #dadce0;
+  cursor: pointer;
+}
+
+.textType {
+  display: flex;
+  gap: 1rem;
+}
+.textType button {
+  background-color: none;
+  border: none;
+  padding: 5px;
+  border-radius: 6px;
+}
+.textType button:hover {
+  background-color: #d2dbee;
+}
+.textType button:active {
+  background-color: #98a2b7;
+}
+.boxD {
+  display: flex;
+
+  gap: 1rem;
+}
+
+.boxE {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+#inputColor {
+  position: absolute;
+  top: 2rem;
+  left: 43rem;
+  width: 0rem;
+  max-height: 0rem;
+  z-index: -20;
+  border: none;
+  outline: none;
+  color: #dadce0;
+}

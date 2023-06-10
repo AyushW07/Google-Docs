@@ -1,0 +1,18 @@
+.menubtn {
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.menubtn:hover {
+  background-color: whitesmoke;
+}
+
+.menubtn:active {
+  background-color: rgb(206, 206, 206);
+}
