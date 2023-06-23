@@ -15,7 +15,11 @@ This project is a Google Docs clone, which aims to provide a similar collaborati
 
 ## Tech Stack
 
-**Frontend:** HTML, CSS, JavaScript
+- React-JS
+- Recoil
+- execCommand
+- Material UI
+- React Icons
 
 ## Deployment Link
 
